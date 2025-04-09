@@ -1,5 +1,3 @@
-
-   
   let newdiv = document.createElement('div');
   document.body.appendChild(newdiv)
   let newbtn = document.createElement('div');
@@ -34,5 +32,3 @@
           newbtn.classList.remove('fast-widget-close')
       }
     }
-
-console.log(a)
