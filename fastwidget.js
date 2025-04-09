@@ -84,3 +84,5 @@ let fast_config =  {
           newbtn.classList.remove('fast-widget-close')
       }
     }
+
+console.log(a)
