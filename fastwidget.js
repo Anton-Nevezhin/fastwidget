@@ -29,7 +29,7 @@
       current_icon = item.icon
     }
      if(item.url==undefined) {
-       newdiv.innerHTML = newdiv.innerHTML + '<div class="fast-widget-mob-bottom-item"><a href="' + window.location.href + item.modal + '" target="_blank">' + current_icon + item.name + '</a></div>'
+       newdiv.innerHTML = newdiv.innerHTML + '<div class="fast-widget-mob-bottom-item"><a href="' + window.location.href + item.modal + '" data-toggle="modal">' + current_icon + item.name + '</a></div>'
      } else {
       newdiv.innerHTML = newdiv.innerHTML + '<div class="fast-widget-mob-bottom-item"><a href="' + item.url + '" target="_blank">' + current_icon + item.name + '</a></div>'
      }
